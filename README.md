@@ -9,6 +9,13 @@ from the [OpenAI Platform](https://platform.openai.com/account/api-keys)
 ## Running the app
 
 ```bash
-# docker container
+# run docker container
 $ docker compose up
+```
+
+## Testing
+
+```bash
+# run tests
+$ yarn test
 ```
