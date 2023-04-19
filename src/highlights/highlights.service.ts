@@ -49,12 +49,4 @@ export class HighlightsService {
   findAll() {
     return this.HighlightModel.find();
   }
-
-  findOne(id: number) {
-    return this.HighlightModel.findById(id);
-  }
-
-  async remove(id: number) {
-    return this.HighlightModel.findByIdAndRemove(id);
-  }
 }

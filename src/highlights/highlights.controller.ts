@@ -15,14 +15,4 @@ export class HighlightsController {
   findAll() {
     return this.highlightsService.findAll();
   }
-
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.highlightsService.findOne(+id);
-  }
-
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.highlightsService.remove(+id);
-  }
 }
